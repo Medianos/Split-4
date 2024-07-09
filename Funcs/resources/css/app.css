@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+}
+
+.error {
+    color: #e3342f;
+    font-size: 0.875em;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+
+
+.profile-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.profile-header h2 {
+    margin: 0;
+}
+
+.profile-header .btn-create {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+     /*desabilitar display none na hora de gravar */
+     display: none;
+}
+
+.profile-header .btn-create:hover {
+    background-color: #218838;
+}
+
+.profile-body {
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.profile-info {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info div {
+    margin-bottom: 5px;
+}
+
+.profile-info div strong {
+    display: inline-block;
+    width: 100px;
+}
+
+.profile-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.profile-actions .btn-edit, .profile-actions .btn-delete {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.profile-actions .btn-delete {
+    background-color: #dc3545;
+}
+
+.profile-actions .btn-edit:hover {
+    background-color: #0056b3;
+}
+
+.profile-actions .btn-delete:hover {
+    background-color: #c82333;
+}
+
+.delete-form {
+    display: inline;
+}
